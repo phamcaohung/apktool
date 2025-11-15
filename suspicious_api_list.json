@@ -1,0 +1,272 @@
+[
+  {
+    "api": "java.net.HttpURLConnection#openConnection",
+    "category": "Networking",
+    "risk": "High"
+  },
+  {
+    "api": "javax.net.ssl.HttpsURLConnection#setHostnameVerifier",
+    "category": "Networking",
+    "risk": "High"
+  },
+  {
+    "api": "java.net.Socket#connect",
+    "category": "Networking",
+    "risk": "High"
+  },
+  {
+    "api": "java.net.DatagramSocket#send",
+    "category": "Networking",
+    "risk": "Medium"
+  },
+  {
+    "api": "java.net.URL#openStream",
+    "category": "Networking",
+    "risk": "Medium"
+  },
+  {
+    "api": "java.net.InetAddress#getHostAddress",
+    "category": "Networking",
+    "risk": "Low"
+  },
+  {
+    "api": "java.net.HttpURLConnection#getInputStream",
+    "category": "Networking",
+    "risk": "Medium"
+  },
+  {
+    "api": "javax.crypto.Cipher#getInstance",
+    "category": "Crypto",
+    "risk": "High"
+  },
+  {
+    "api": "javax.crypto.Cipher#doFinal",
+    "category": "Crypto",
+    "risk": "High"
+  },
+  {
+    "api": "javax.crypto.Cipher#init",
+    "category": "Crypto",
+    "risk": "High"
+  },
+  {
+    "api": "javax.crypto.spec.SecretKeySpec",
+    "category": "Crypto",
+    "risk": "High"
+  },
+  {
+    "api": "javax.crypto.KeyGenerator#generateKey",
+    "category": "Crypto",
+    "risk": "Medium"
+  },
+  {
+    "api": "javax.crypto.Mac#getInstance",
+    "category": "Crypto",
+    "risk": "Medium"
+  },
+  {
+    "api": "java.security.MessageDigest#getInstance",
+    "category": "Crypto",
+    "risk": "Low"
+  },
+  {
+    "api": "java.security.Signature#getInstance",
+    "category": "Crypto",
+    "risk": "Medium"
+  },
+  {
+    "api": "android.telephony.TelephonyManager#getDeviceId",
+    "category": "Device Info",
+    "risk": "High"
+  },
+  {
+    "api": "android.telephony.SubscriptionManager#getActiveSubscriptionInfoList",
+    "category": "Device Info",
+    "risk": "High"
+  },
+  {
+    "api": "android.provider.Settings$Secure#getString",
+    "category": "Device Info",
+    "risk": "High"
+  },
+  {
+    "api": "android.os.Build#SERIAL",
+    "category": "Device Info",
+    "risk": "Medium"
+  },
+  {
+    "api": "android.bluetooth.BluetoothAdapter#getAddress",
+    "category": "Device Info",
+    "risk": "High"
+  },
+  {
+    "api": "android.net.wifi.WifiInfo#getMacAddress",
+    "category": "Device Info",
+    "risk": "High"
+  },
+  {
+    "api": "dalvik.system.DexClassLoader",
+    "category": "Dynamic Code",
+    "risk": "High"
+  },
+  {
+    "api": "java.lang.ClassLoader#defineClass",
+    "category": "Dynamic Code",
+    "risk": "High"
+  },
+  {
+    "api": "java.lang.Class#forName",
+    "category": "Dynamic Code",
+    "risk": "High"
+  },
+  {
+    "api": "java.lang.reflect.Method#invoke",
+    "category": "Dynamic Code",
+    "risk": "High"
+  },
+  {
+    "api": "java.lang.Runtime#exec",
+    "category": "Dynamic Code",
+    "risk": "High"
+  },
+  {
+    "api": "android.webkit.WebView#addJavascriptInterface",
+    "category": "Dynamic Code",
+    "risk": "High"
+  },
+  {
+    "api": "dalvik.system.PathClassLoader",
+    "category": "Dynamic Code",
+    "risk": "Medium"
+  },
+  {
+    "api": "android.Manifest.permission.READ_SMS",
+    "category": "Permissions",
+    "risk": "High"
+  },
+  {
+    "api": "android.Manifest.permission.RECEIVE_SMS",
+    "category": "Permissions",
+    "risk": "High"
+  },
+  {
+    "api": "android.Manifest.permission.READ_CONTACTS",
+    "category": "Permissions",
+    "risk": "High"
+  },
+  {
+    "api": "android.Manifest.permission.ACCESS_FINE_LOCATION",
+    "category": "Permissions",
+    "risk": "High"
+  },
+  {
+    "api": "android.Manifest.permission.ACCESS_COARSE_LOCATION",
+    "category": "Permissions",
+    "risk": "Medium"
+  },
+  {
+    "api": "android.Manifest.permission.CAMERA",
+    "category": "Permissions",
+    "risk": "Medium"
+  },
+  {
+    "api": "android.Manifest.permission.RECORD_AUDIO",
+    "category": "Permissions",
+    "risk": "High"
+  },
+  {
+    "api": "android.hardware.Camera#open",
+    "category": "Sensors",
+    "risk": "High"
+  },
+  {
+    "api": "android.hardware.Camera#takePicture",
+    "category": "Sensors",
+    "risk": "High"
+  },
+  {
+    "api": "android.media.MediaRecorder#start",
+    "category": "Sensors",
+    "risk": "High"
+  },
+  {
+    "api": "android.location.LocationManager#requestLocationUpdates",
+    "category": "Sensors",
+    "risk": "Medium"
+  },
+  {
+    "api": "android.location.LocationListener#onLocationChanged",
+    "category": "Sensors",
+    "risk": "Medium"
+  },
+  {
+    "api": "android.content.ClipboardManager#getPrimaryClip",
+    "category": "Data Access",
+    "risk": "High"
+  },
+  {
+    "api": "android.content.ContentResolver#query",
+    "category": "Data Access",
+    "risk": "Medium"
+  },
+  {
+    "api": "android.database.sqlite.SQLiteDatabase#rawQuery",
+    "category": "Data Access",
+    "risk": "Low"
+  },
+  {
+    "api": "android.content.SharedPreferences#getString",
+    "category": "Data Access",
+    "risk": "Low"
+  },
+  {
+    "api": "android.app.admin.DevicePolicyManager#lockNow",
+    "category": "Admin Abuse",
+    "risk": "High"
+  },
+  {
+    "api": "android.app.admin.DevicePolicyManager#resetPassword",
+    "category": "Admin Abuse",
+    "risk": "High"
+  },
+  {
+    "api": "android.app.admin.DevicePolicyManager#wipeData",
+    "category": "Admin Abuse",
+    "risk": "High"
+  },
+  {
+    "api": "android.app.NotificationManager#notify",
+    "category": "System Control",
+    "risk": "Low"
+  },
+  {
+    "api": "android.os.PowerManager#reboot",
+    "category": "System Control",
+    "risk": "High"
+  },
+  {
+    "api": "android.os.PowerManager#newWakeLock",
+    "category": "System Control",
+    "risk": "Medium"
+  },
+  {
+    "api": "android.app.ActivityManager#getRunningTasks",
+    "category": "System Control",
+    "risk": "High"
+  },
+  {
+    "api": "android.webkit.WebView#loadUrl",
+    "category": "Web",
+    "risk": "Medium"
+  },
+  {
+    "api": "android.webkit.CookieManager#getCookie",
+    "category": "Web",
+    "risk": "High"
+  },
+  {
+    "api": "android.webkit.WebView#evaluateJavascript",
+    "category": "Web",
+    "risk": "Medium"
+  }
+]
